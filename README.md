@@ -82,7 +82,7 @@ sleep(1)  # Adjust the delay as needed (default: 1 second)
 ## File Structure
 Filename | Description
 --- | ---
-`downloader.py` | Main script for logging in, data fetching, and downloading files.
+`pilvilinna.py` | Main script for logging in, data fetching, and downloading files.
 `secs.py` | Credential storage. Ensure to keep this file secure.
 `requirements.txt` | List of dependencies for pip installation.
 `debug.log` (generated) | Log file for debugging during execution.
