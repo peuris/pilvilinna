@@ -18,6 +18,10 @@ Ensure you have Python 3.7+ installed and the necessary dependencies.
 ## Dependencies
 You can install the dependencies using pip:
 ```bash
+pip install -r requirements.txt
+```
+or
+```bash
 pip install requests beautifulsoup4 curses
 ```
 
