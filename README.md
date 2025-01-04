@@ -16,13 +16,18 @@ This Python project facilitates downloading large amounts of media files (photos
 Ensure you have Python 3.7+ installed and the necessary dependencies.
 
 ## Dependencies
-You can install the dependencies using pip:
+You can install the dependencies using pip (WSL2/Linux):
 ```bash
 pip install -r requirements.txt
 ```
 or
 ```bash
-pip install requests beautifulsoup4 curses
+pip install requests==2.32.3 beautifulsoup4==4.12.3
+```
+
+If you're on *Windows* and need functionality similar to curses, you might need a package like windows-curses to provide compatibility:
+```bash
+pip install windows-curses
 ```
 
 ## Getting Started
